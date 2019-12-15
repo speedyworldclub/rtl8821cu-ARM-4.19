@@ -88,4 +88,5 @@ make
 sudo make install
 ./dkms-install.sh
 sudo dkms status
+echo 8812cu | sudo tee -a /etc/modules
 ```
